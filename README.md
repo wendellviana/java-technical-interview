@@ -9,6 +9,14 @@ SureCloud has stored some fictitious candidate exam results in a local h2 databa
 - Expose an endpoint to add a new exam result
 - Include evidence that the features work as intended
 
+## The data
+
+- Table `Result`
+  - Field `id` type `uuid`
+  - Field `name` type `varchar(255)`
+  - Field `score` type `int`
+  - Field `date_taken` type `date`
+
 ## Instructions
 
 - The h2 database has been configured and populated for you
