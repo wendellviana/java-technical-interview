@@ -1,6 +1,12 @@
 # Java Technical Interview
 
-SureCloud has stored some fictitious candidate exam results in a local h2 database provided in `results.mv.db`. Your task is to write a Spring Boot micro service that satisfies the following criteria:
+SureCloud has stored some fictitious candidate exam results in a local h2 database provided in `results.mv.db`. Your task is to write a Spring Boot micro service that satisfies the given criteria.
+
+## Instructions
+
+- Please fork this repo and submit your solution via Github or Gitlab
+- The h2 database has been configured and populated for you
+- This test is designed to take no more than an hour
 
 ## The Criteria
 
@@ -17,8 +23,4 @@ SureCloud has stored some fictitious candidate exam results in a local h2 databa
   - Field `score` type `int`
   - Field `date_taken` type `date`
 
-## Instructions
 
-- The h2 database has been configured and populated for you
-- Please fork this repo and submit your solution via Github or Gitlab
-- This test is designed to take no more than an hour
