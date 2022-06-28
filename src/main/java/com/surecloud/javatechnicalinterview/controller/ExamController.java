@@ -28,7 +28,7 @@ public class ExamController {
         return examService.getExamById(examId);
     }
 
-    @PostMapping("/exams")
+    @PostMapping("/exams/add")
     public Exam saveExam(@Validated @RequestBody Exam exam) {
        return examService.saveExam(exam);
     }
